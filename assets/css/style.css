@@ -124,12 +124,26 @@ footer {
 }
 
 @media (max-width: 768px) {
+  body {
+    padding-left: 0; /* Remove the global padding-left for mobile */
+    padding-right: 0; /* Remove the global padding-right for mobile */
+  }
+
   header {
-    padding-right: 0;
+    padding-right: 2rem;
+  }
+  
+  nav a {
+    font-size: 1.5rem; /* Increase the font size for mobile */
+  }
+
+  .cards-container {
+    padding: 0;
   }
 
   .card {
     width: 100%;
+    margin-left: 0; /* Add this to remove the margin-left */
   }
 
   .intro {
