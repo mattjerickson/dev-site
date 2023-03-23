@@ -94,6 +94,7 @@ footer {
 }
 
 @media (max-width: 480px) {
+
     .card {
         width: 100%;
     }
@@ -111,6 +112,8 @@ footer {
     }
     
     .intro .summary {
-        margin-left: 0;
+        width: 100%; /* Set the width to 100% on mobile */
+        padding-left: 0; /* Remove the padding-left for mobile */
+        padding-right: 0; /* Remove the padding-right for mobile */
     }
 }
