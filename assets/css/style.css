@@ -88,12 +88,6 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .card {
-        width: calc(50% - 2rem);
-    }
-}
-
-@media (max-width: 480px) {
 
     .card {
         width: 100%;
